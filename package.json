@@ -1,4 +1,14 @@
 {
+  "name": "kovhar-backend",
+  "version": "1.0.0",
+  "description": "Backend API for KOVHAR eCommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "author": "Sumit Shinde",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
@@ -6,5 +16,8 @@
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
