@@ -1,48 +1,3 @@
-const mongoose = require("mongoose");
-
-const sizeSchema = new mongoose.Schema(
-  {
-    size: {
-      type: Number,
-      required: true,
-      min: 4,
-      max: 12,
-    },
-    stock: {
-      type: Number,
-      required: true,
-      default: 0,
-      min: 0,
-    },
-  },
-  { _id: false },
-);
-
-const reviewSchema = new mongoose.Schema(
-  {
-    user: {
-      type: String,
-      required: true,
-      trim: true,
-    },
-    rating: {
-      type: Number,
-      required: true,
-      min: 1,
-      max: 5,
-    },
-    comment: {
-      type: String,
-      trim: true,
-    },
-    createdAt: {
-      type: Date,
-      default: Date.now,
-    },
-  },
-  { _id: false },
-);
-
 const productSchema = new mongoose.Schema(
   {
     name: {
@@ -184,6 +139,22 @@ const productSchema = new mongoose.Schema(
         trim: true,
       },
     ],
+
+    isBestSeller: {
+      type: Boolean,
+      default: false,
+    },
+
+    isFeatured: {
+      type: Boolean,
+      default: false,
+    },
+
+    status: {
+      type: String,
+      enum: ["active", "inactive", "draft"],
+      default: "active",
+    },
   },
   {
     timestamps: true,
