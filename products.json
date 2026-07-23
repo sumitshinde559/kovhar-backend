@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Classic Tan Kolhapuri Chappal",
+    "slug": "classic-tan-kolhapuri-chappal",
+    "brand": "KOVHAR",
+    "category": ["Men"],
+    "subCategory": "Traditional",
+    "description": "Handcrafted genuine leather Kolhapuri chappal featuring a timeless tan finish, soft leather lining and durable sole for all-day comfort.",
+    "price": 2499,
+    "discountPrice": 1999,
+    "rating": 4.8,
+    "sizes": [
+      { "size": 6, "stock": 8 },
+      { "size": 7, "stock": 12 },
+      { "size": 8, "stock": 15 },
+      { "size": 9, "stock": 14 },
+      { "size": 10, "stock": 11 },
+      { "size": 11, "stock": 7 }
+    ],
+    "color": "Tan",
+    "material": "Genuine Leather",
+    "images": [
+      "/images/products/classic-tan/front.jpg",
+      "/images/products/classic-tan/side.jpg",
+      "/images/products/classic-tan/top.jpg"
+    ],
+    "tags": ["men", "traditional", "leather", "bestseller"]
+  },
+  {
+    "name": "Royal Brown Kolhapuri",
+    "slug": "royal-brown-kolhapuri",
+    "brand": "KOVHAR",
+    "category": ["Men"],
+    "subCategory": "Premium",
+    "description": "Premium handcrafted brown leather Kolhapuri chappal suitable for festivals, weddings and everyday ethnic wear.",
+    "price": 2799,
+    "discountPrice": 2299,
+    "rating": 4.9,
+    "sizes": [
+      { "size": 7, "stock": 10 },
+      { "size": 8, "stock": 16 },
+      { "size": 9, "stock": 18 },
+      { "size": 10, "stock": 10 },
+      { "size": 11, "stock": 8 }
+    ],
+    "color": "Brown",
+    "material": "Premium Leather",
+    "images": [
+      "/images/products/royal-brown/front.jpg",
+      "/images/products/royal-brown/side.jpg",
+      "/images/products/royal-brown/back.jpg"
+    ],
+    "tags": ["men", "premium", "brown", "festival"]
+  },
+  {
+    "name": "Women's Rose Gold Kolhapuri",
+    "slug": "womens-rose-gold-kolhapuri",
+    "brand": "KOVHAR",
+    "category": ["Women"],
+    "subCategory": "Fashion",
+    "description": "Elegant handcrafted Kolhapuri with metallic rose gold finish designed for festive and casual occasions.",
+    "price": 2199,
+    "discountPrice": 1799,
+    "rating": 4.7,
+    "sizes": [
+      { "size": 5, "stock": 10 },
+      { "size": 6, "stock": 14 },
+      { "size": 7, "stock": 18 },
+      { "size": 8, "stock": 12 },
+      { "size": 9, "stock": 7 }
+    ],
+    "color": "Rose Gold",
+    "material": "Leather",
+    "images": [
+      "/images/products/womens-rose-gold/front.jpg",
+      "/images/products/womens-rose-gold/side.jpg",
+      "/images/products/womens-rose-gold/top.jpg"
+    ],
+    "tags": ["women", "fashion", "festival"]
+  },
+  {
+    "name": "Girls Pink Kolhapuri",
+    "slug": "girls-pink-kolhapuri",
+    "brand": "KOVHAR",
+    "category": ["Girl"],
+    "subCategory": "Kids",
+    "description": "Comfortable handcrafted leather Kolhapuri for girls with decorative floral detailing.",
+    "price": 1299,
+    "discountPrice": 999,
+    "rating": 4.6,
+    "sizes": [
+      { "size": 4, "stock": 12 },
+      { "size": 5, "stock": 14 },
+      { "size": 6, "stock": 11 }
+    ],
+    "color": "Pink",
+    "material": "Leather",
+    "images": [
+      "/images/products/girls-pink/front.jpg",
+      "/images/products/girls-pink/side.jpg"
+    ],
+    "tags": ["girls", "kids", "pink"]
+  },
+  {
+    "name": "Boys Classic Brown Kolhapuri",
+    "slug": "boys-classic-brown-kolhapuri",
+    "brand": "KOVHAR",
+    "category": ["Boy"],
+    "subCategory": "Kids",
+    "description": "Traditional handcrafted brown leather Kolhapuri designed for boys with flexible sole and comfortable fit.",
+    "price": 1399,
+    "discountPrice": 1099,
+    "rating": 4.5,
+    "sizes": [
+      { "size": 4, "stock": 10 },
+      { "size": 5, "stock": 15 },
+      { "size": 6, "stock": 12 }
+    ],
+    "color": "Brown",
+    "material": "Leather",
+    "images": [
+      "/images/products/boys-classic-brown/front.jpg",
+      "/images/products/boys-classic-brown/side.jpg"
+    ],
+    "tags": ["boys", "kids", "traditional"]
+  },
+  {
+    "name": "KOVHAR Maharaja Heritage",
+    "slug": "kovhar-maharaja-heritage",
+    "brand": "KOVHAR",
+    "category": ["Men", "Limited Edition"],
+    "subCategory": "Heritage Collection",
+    "description": "An exclusive handcrafted men's Kolhapuri inspired by the royal heritage of Kolhapur. Crafted from premium full-grain leather with intricate handwoven detailing.",
+    "price": 5999,
+    "discountPrice": 5499,
+    "rating": 5,
+    "sizes": [
+      { "size": 7, "stock": 4 },
+      { "size": 8, "stock": 6 },
+      { "size": 9, "stock": 5 },
+      { "size": 10, "stock": 3 },
+      { "size": 11, "stock": 2 }
+    ],
+    "color": "Antique Brown",
+    "material": "Premium Full Grain Leather",
+    "images": [
+      "/images/products/maharaja-heritage/front.jpg",
+      "/images/products/maharaja-heritage/side.jpg",
+      "/images/products/maharaja-heritage/top.jpg"
+    ],
+    "tags": ["limited-edition", "heritage", "luxury", "men", "exclusive"]
+  },
+  {
+    "name": "KOVHAR Queen's Heritage Kolhapuri",
+    "slug": "kovhar-queens-heritage-kolhapuri",
+    "brand": "KOVHAR",
+    "category": ["Women", "Limited Edition"],
+    "subCategory": "Royal Collection",
+    "description": "A luxurious handcrafted women's Kolhapuri featuring premium leather, handwoven detailing and elegant metallic embellishments inspired by royal Maharashtrian heritage.",
+    "price": 5799,
+    "discountPrice": 5299,
+    "rating": 4.9,
+    "sizes": [
+      { "size": 5, "stock": 4 },
+      { "size": 6, "stock": 6 },
+      { "size": 7, "stock": 5 },
+      { "size": 8, "stock": 3 }
+    ],
+    "color": "Champagne Gold",
+    "material": "Premium Full Grain Leather",
+    "images": [
+      "/images/products/queens-heritage/front.jpg",
+      "/images/products/queens-heritage/side.jpg",
+      "/images/products/queens-heritage/top.jpg"
+    ],
+    "tags": ["limited-edition", "women", "royal", "luxury", "exclusive"]
+  }
+]
