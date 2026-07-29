@@ -438,6 +438,22 @@ app.put("/products", async (req, res) => {
   }
 });
 
+app.put("/products/update-images", async (req, res) => {
+  const products = await Product.find();
+
+  for (const product of products) {
+    product.images = [
+      `/images/products/${product.slug}/top.png`,
+      `/images/products/${product.slug}/side.png`,
+      `/images/products/${product.slug}/front.png`,
+    ];
+
+    await product.save();
+  }
+
+  res.json({ success: true });
+});
+
 // 10. Delete Product
 
 async function deleteProductById(productId) {
