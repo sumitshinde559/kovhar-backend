@@ -4,6 +4,8 @@ const cors = require("cors");
 
 const { initializeDatabase } = require("./db/db.connect");
 const Product = require("./models/product.models");
+const wishlistRoutes = require("./routes/wishlist.routes");
+const orderRoutes = require("./routes/order.routes");
 const authRoutes = require("./routes/auth.routes");
 
 const app = express();
@@ -13,7 +15,8 @@ initializeDatabase();
 app.use(cors());
 app.use(express.json());
 app.use("/auth", authRoutes);
-
+app.use("/wishlist", wishlistRoutes);
+app.use("/orders", orderRoutes);
 /* =========================================================================
    PRODUCTS
    ========================================================================= */
